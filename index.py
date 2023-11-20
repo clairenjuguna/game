@@ -522,7 +522,7 @@ def gameLoop():
     enemyTankX = display_width * 0.1
     enemyTankY = display_height * 0.9
 
-    fire_power = 50
+    fire_power = 80
     power_change = 0
 
     xlocation = (display_width / 2) + random.randint(-0.1 * display_width, 0.1 * display_width)
